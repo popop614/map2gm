@@ -207,6 +207,7 @@ def run(submit_func):
         'miniblock','miniup','miniright','minileft','minidown',
         'save','platform','water1','water2','water3','cherry','hurtblock',
         'vineright','vineleft','jumprefresher','bulletblocker','start','warp',
+        'gravup','gravdown','flipsave','sidewaysplatform','triplejump','doublejump','bounce','bouncemini','bouncedisappear','blockflipup','blockflipdown','upwater','downwater','shootRIGHT','shootLEFT','bouncefruit','horizline','vertiline','slantlinea','slantlineb','waterdisappear','dotkidfield','dotkidremove','minidisappear','miniwater1','miniwater2','miniwater3','minitriple','minidotkid','minidotkidremove','miniupwater','minidownwater','miniflipup','miniflipdown','watercatharsis','minicatharsis',
         ]
     object_images = [(o,'images/%s.png'%o) for o in object_names]
     objectrowheight = 40
